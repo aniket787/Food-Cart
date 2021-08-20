@@ -122,15 +122,15 @@ display: block;
 
 
 /* Client Section */
-#client-section{
+/* #client-section{
     height: 344px;
-}
+} */
 #client-section::before{
     content:"";
     position: absolute;
     background: url(../bg2.jpg) no-repeat center center/cover;;
      width: 100%;
-     height: 70%; 
+     height: 80%; 
     z-index: -1;
     opacity: 0.4;
 } 
@@ -139,6 +139,7 @@ display: block;
 #clients{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap-reverse;
     align-items: center;
 }
 .client-item{
@@ -216,6 +217,8 @@ footer{
     color: white;
     margin: 17px;
     font-size: 1.5rem;
+    /* position: absolute; */
+    top: 22rem;
         border-radius: 20px;
         cursor: pointer;
 }
